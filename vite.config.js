@@ -4,7 +4,7 @@ import babel from '@rollup/plugin-babel';
 
 export default defineConfig({
     plugins: [
-        babel(),
+        babel({ babelHelpers: 'bundled' }),
     ],
     resolve: {
         alias: {
