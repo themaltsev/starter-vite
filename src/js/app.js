@@ -1,7 +1,9 @@
 import '@/css/tailwind.css';
 
 const a = async () =>{
-    console.log(1);
+    await console.log('async work');
 }
 
+a()
 console.log(a);
+
